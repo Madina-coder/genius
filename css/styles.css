@@ -33,6 +33,8 @@ address {
 }
 
 ul {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 
@@ -80,12 +82,40 @@ ul {
 
 .link:hover {
     color: var(--color-brand-light);
-    font-weight: 600;
+}
+
+/*header*/
+.header {
+ background-color: aqua;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    gap: 40px;
+}
+
+.header-menu {
+    display: flex;
+    gap: 64px;
+    flex-grow: 1;
+    justify-content: center;
 }
 
 /*hero*/
 .hero-section {
-    padding: 272px 0;
+   padding: 272px 0;
+   background-image: url("../imeg/фон_главный.jpg");
+   background-repeat: no-repeat;
+   background-position: center top;
+   background-size: cover;
 }
 
 .hero-title {
@@ -101,12 +131,19 @@ ul {
 }
 
 /*adventages*/
+.adventages-section {
+   padding: 16px 0;
+   background-color: var(--color-brand-light);
+}
+
 .adventages-list {
-    color: var(--color-primary-light);
-    background-color: var(--color-brand-light);
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
 }
 
 .adventages-item {
+    color: var(--color-primary-light);
     font-size: 20px;
     font-weight: 300;
 }
@@ -125,6 +162,17 @@ ul {
 .traditions-section {
     padding-top: 96px;
 }
+
+.traditions-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.traditions-content {
+    max-width: 710px;
+}
+
 
 .traditions-title {
     margin-bottom: 42px;
@@ -151,6 +199,28 @@ ul {
 }
 
 /*forma*/
+.formats-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.formats-item {
+    flex-basis: calc((100% - 40px) / 3);
+    display: flex;
+    flex-direction: column;
+}
+
+.format-card{
+    flex: 1;
+    padding: 24px;
+    border: 1px solid lightgrey;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .formats-title {
     margin-bottom: 80px;
 }
