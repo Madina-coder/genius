@@ -299,7 +299,7 @@ ul {
 }
 
 .adress-icon {
-    fill: var(--color-brand-light);
+    fill: var(--color-primary-light);
 }
 
 .adress-icon:hover {
