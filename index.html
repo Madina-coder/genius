@@ -39,8 +39,8 @@
          </section>
          <section class="adventages-section">
               <div class="container">
+                 <h2 class="visually-hidden">Наші переваги</h2>
                  <ul class="adventages-list">
-                     <h2 class="visually-hidden">Наші переваги</h2>
                      <li class="adventages-item">Великий попит на ринку</li>
                      <li class="adventages-item">Доступні за бюджетом формати</li>
                      <li class="adventages-item">Досвідчена управлінська команда</li>
@@ -67,10 +67,11 @@
              </div>
          </section>
          <section class="section" id="chefs-section">
-             <div class="container"><h2 class="chefs-title section-title"> Наші найкращі <span class="accent">шеф-кухарі</span> </h2>
+             <div class="container"><h2 class="chefs-title section-title centered"> Наші найкращі <span class="accent">шеф-кухарі</span> </h2>
                  <ul>
                       <li>
                          <article>
+                            <img class="chef-imeg" src="./imeg/настя.jpg" alt="настя">
                              <h3 class="chef-title"> Настя</h3>
                              <p>Привіт, я Настя!</p>
                              <p>Вже 10 років, я свтілюю у життя цікаві та смачні ідеї.</p>
@@ -79,6 +80,7 @@
                       </li>
                       <li>
                          <article>
+                            <img class="chef-imeg" src="./imeg/влад.jpg" alt="влад">
                              <h3 class="chef-title"> Влад</h3>
                              <p>Привіт, я Влад!</p>
                              <p>Мій кодитерський стаж вже 18 років. SHOP BEKERY - це наша любов, з якою ми ділимось кожен раз з Вами
@@ -92,7 +94,12 @@
          </section>
          <section class="section" id="format-section">
              <div class="container">
-                 <h2 class="formats-title section-title">Формати</h2>
+                 <h2 class="formats-title section-title centered">Формати</h2>
+                 <button class="carusel-button" type="button">
+                     <svg class="carusel-icon" width="16" height="16">
+                         <use href="./imeg/icons.svg#icon-Arrow"></use>
+                     </svg>
+                 </button>
                  <ul class="formats-list">
                      <li class="formats-item">
                          <article class="format-card">
@@ -128,6 +135,11 @@
                          </article>
                      </li>
                  </ul>
+                 <button class="carusel-button" type="button">
+                    <svg class="carusel-icon" width="16" height="16">
+                        <use href="./imeg/icons.svg#icon-Arrow"></use>
+                    </svg>
+                 </button>
              </div>
          </section>
          <section class="section" id="contact-section">
@@ -141,7 +153,7 @@
               </div>
          </section>
        </main>
-      <footer>
+      <footer class="footer">
           <div class="container">
              <nav>
                  <a href="#">
@@ -161,13 +173,17 @@
                      <li><a class="address-link" href="https://maps.app.goo.gl/8bS1AMun4XmzcYWk9" target="_blank"> Україна, м. Київ,
                             вул. Січових Стрільців 54</a></li>
                      <li>
-                         <a href="#">
-                            <!--facebook icon-->
+                          <a href="#">
+                             <svg class="adress-icon" width="32" height="32">
+                                 <use href="./imeg/icons.svg#icon-facebook"></use>
+                             </svg>
                          </a>
                      </li>
                      <li>
                          <a href="#">
-                            <!--instagram icon-->
+                             <svg class="adress-icon" width="32" height="32">
+                                 <use href="./imeg/icons.svg#icon-instagram"></use>
+                             </svg>
                          </a>
                      </li>
                  </ul>
