@@ -120,11 +120,11 @@ ul {
 
 /*hero*/
 .hero-section {
-   padding: 272px 0;
-   background-image: url("../imeg/фон_главный.jpg");
-   background-repeat: no-repeat;
-   background-position: center top;
-   background-size: cover;
+    padding: 272px 0;
+    background-image: url("../imeg/фон_главный.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
 }
 
 .hero-title {
